@@ -12,6 +12,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: docker.io/<YOUR_DOCKERHUB_ID>/demo-app:latest
+          image: docker.io/msro/demo-app:latest
           ports:
             - containerPort: 80
