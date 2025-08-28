@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+
+images:
+  - name: docker.io/msro/demo-app
+    newTag: latest    # CI에서 SHA로 바꿔 커밋하도록 확장 가능
