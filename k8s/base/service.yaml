@@ -3,8 +3,8 @@ kind: Service
 metadata:
   name: demo-app
 spec:
-  type: LoadBalancer
   selector: { app: demo-app }
   ports:
     - port: 80
       targetPort: 80
+  type: ClusterIP
